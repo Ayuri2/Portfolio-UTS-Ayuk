@@ -1053,6 +1053,10 @@ a:focus {
   border-right: 1px solid #ffffff;
 }
 
+.footer .footer-menu p:last-child {
+  border: none;
+}
+
 .footer .footer-social {
   position: relative;
   margin-top: 15px;
@@ -1077,6 +1081,14 @@ a:focus {
   color: #91afff;
 }
 
+.footer .copyright {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .footer .copyright::before {
   position: absolute;
   content: "";
@@ -1087,27 +1099,15 @@ a:focus {
   background: rgba(256, 256, 256, 0.2);
 }
 
-.footer .copyright .col-md-6:last-child p {
-  text-align: right;
-}
-
-.footer .copyright {
-  position: relative;
-  text-align: center;
-  margin-top: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
-
 .footer .copyright p {
   margin: 0;
   color: #ffffff;
 }
 
-.footer .copyright p a {
-  color: #ffffff;
-  font-weight: 600;
+.footer .copyright .col-md-6:last-child p {
+  text-align: right;
 }
+
 
 @media (max-width: 575.98px) {
   .footer .footer-info h2 {
