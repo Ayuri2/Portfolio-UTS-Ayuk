@@ -220,6 +220,47 @@ a:focus {
 }
 
 
+/******* Section Header ********/
+
+.section-header {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.section-header p {
+  display: inline-block;
+
+  margin-bottom: 10px;
+
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #ffffff;
+}
+
+.section-header h2 {
+  margin: 0;
+  position: relative;
+  font-size: 45px;
+  font-weight: 700;
+  font-color: #000;
+  /*background: -webkit-linear-gradient(#EC1E84, #fad955);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+
+@media (max-width: 767.98px) {
+  .section-header h2 {
+    font-size: 30px;
+  }
+}
+
+
+
+
+
 
 /********** Hero CSS ***********/
 
@@ -554,45 +595,6 @@ a:focus {
 
 
 
-/******* Section Header ********/
-
-.section-header {
-  position: relative;
-  margin-bottom: 45px;
-}
-
-.section-header p {
-  display: inline-block;
-
-  margin-bottom: 10px;
-
-  position: relative;
-  font-size: 16px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  background: #ffffff;
-}
-
-.section-header h2 {
-  margin: 0;
-  position: relative;
-  font-size: 45px;
-  font-weight: 700;
-  font-color: #000;
-  /*background: -webkit-linear-gradient(#EC1E84, #fad955);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-}
-
-@media (max-width: 767.98px) {
-  .section-header h2 {
-    font-size: 30px;
-  }
-}
-
-
-
 /********** About Me **********/
 
 .about {
@@ -823,7 +825,7 @@ a:focus {
 
 
 
-/******* Experience CSS ********/
+/******* Pengalaman Prestasi CSS ********/
 .experience {
   position: relative;
   padding: 45px 0 15px 0;
@@ -998,9 +1000,9 @@ a:focus {
   }
 }
 
-/*******************************/
-/********* Footer CSS **********/
-/*******************************/
+
+/********* Footer dan Kontak Saya CSS **********/
+
 .footer {
   position: relative;
   margin-top: 45px;
@@ -1051,10 +1053,6 @@ a:focus {
   border-right: 1px solid #ffffff;
 }
 
-.footer .footer-menu p:last-child {
-  border: none;
-}
-
 .footer .footer-social {
   position: relative;
   margin-top: 15px;
@@ -1076,15 +1074,7 @@ a:focus {
 }
 
 .footer .footer-social a:hover i {
-  color: #414141;
-}
-
-.footer .copyright {
-  position: relative;
-  text-align: center;
-  margin-top: 30px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  color: #91afff;
 }
 
 .footer .copyright::before {
@@ -1097,22 +1087,26 @@ a:focus {
   background: rgba(256, 256, 256, 0.2);
 }
 
+.footer .copyright .col-md-6:last-child p {
+  text-align: right;
+}
+
+.footer .copyright {
+  position: relative;
+  text-align: center;
+  margin-top: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
 .footer .copyright p {
   margin: 0;
   color: #ffffff;
 }
 
-.footer .copyright .col-md-6:last-child p {
-  text-align: right;
-}
-
 .footer .copyright p a {
   color: #ffffff;
   font-weight: 600;
-}
-
-.footer .copyright p a:hover {
-  color: #414141;
 }
 
 @media (max-width: 575.98px) {
